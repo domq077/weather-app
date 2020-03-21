@@ -1,0 +1,106 @@
+html, body {
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 460px;
+    height: 300px;
+	margin: 200px auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    padding: 0;
+}
+
+h1 {
+    background-color: #514F8C;
+    height: 70px;
+    line-height: 60px;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    display: inline-block;
+	font-size: 1rem;
+    width: 50%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+    color: #2980b9;
+    background-color: #fff;
+	border: 3px solid #514F8C;
+    outline: none;
+    margin-top: 50px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    background-color: #514F8C;
+	border: 3px solid #514F8C;
+    outline: none;
+    margin-top: 5px;
+    font-size: 1rem;
+    padding: 10px;  
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+
+.city {
+    height: 40%;
+    background-color: #8477AC;
+    padding-left: 20px;
+}
+
+.data {
+    height: 40%;
+    padding: 20px 0 0 20px;
+}
+
+h2 {
+	color: white;
+	font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10rem;
+}
+
+
+a {
+    width: 40%;
+    background-color: #8477AC;
+	border: 3px solid #8477AC;
+    outline: none;
+    margin-top: 5px;
+    font-size: 1rem;
+    padding: 10px;  
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    opacity: 0.75;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    opacity: 1;
+}
+
